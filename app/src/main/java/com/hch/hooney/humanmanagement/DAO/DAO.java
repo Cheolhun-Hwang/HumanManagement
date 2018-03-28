@@ -22,7 +22,7 @@ public class DAO {
 
     public static void loadHumanResources(){
         DAO.hmList.clear();
-        Cursor cursor = DAO.handler.selectAll_human();
+        Cursor cursor = DAO.handler.selectAllHuman();
 
         if(cursor.moveToFirst()){
             do{
